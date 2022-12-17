@@ -22,20 +22,6 @@ li:hover ul a{
     background-color: #2c3e50 #18bc9c ;    
     color: black;
 }
-li:hover ul a:hover{
-
-    background-color: #18bc9c;
-    color: #fff;
-}
-
-li ul li{
-    display: block;
-    float: none;
-}
-li ul li a{
-    min-width: 100px;
-    padding: 0 20px;
-}
 .clearfix::after{
 content: "";
 display: block;
@@ -146,8 +132,111 @@ nav{
 
 #nav-links .nav-link:hover{
     color: #080808;
+    background-color: #18bc9c;
 }
-/*header*/
-header{
+li:hover ul a:hover{
+
+    background: #18bc9c;
+    color: #fff;
+
+}
+li ul li{
+    display: block;
+    float: none;
+}
+li ul li a{
+    min-width: 100px;
+    padding: 0 20px;
+}
+li ul{
+    display: none;
+}
+
+ul li a:hover + .hidden,.hidden:hover{
+    display: block;
+}
+.container-2{
+    height: 280px;
+    background-color: #77b7f7;
+}
+.kutu{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #fff;
+    float: left;
+    position: relative;
+}
+.kutu2{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #fff;
+    float: left;
+    position: relative;
+}
+.left{
+    float: left;
+}
+.left h4{
+    color: #180bd3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
     
 }
+.left p{
+    color: #6a6792;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.btn{ 
+    border: .1rem solid #6a6792;
+    background-color: #032a52;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: .5rem;
+}
+.right p{
+    color: #eb0808;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    float: right;
+    position: absolute;
+    bottom: .1rem;
+    right: .5rem;
+}
+.right p img{
+    width: 100px;
+    height: 100px;
+}
+.container-3{
+    height: 500px;
+    background-color: #5b6977;
+}
+.text{
+    height: 70px;
+    font-size: 3rem;
+    text-align: center;
+}
+.phone-container{
+    height: 430px;
+    background-color: #5083b6;
+}
+
+
+
+
+
