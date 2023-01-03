@@ -113,43 +113,28 @@ main{
     text-align: center;
 }
 .icerik{
-    width: 48%;
-    height: auto;
+    width: 45%;
+    height: 200px;
     display: inline-block;
     margin-right: 15px;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px 2px;
-    padding: 15px;
+    border-radius: 300px;
     background-color: white;
 }
 .resim{
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 100px;
 }
-.icerik h4{
-    text-align: center;
-    color: rgb(180, 82, 82);
-}
-.icerik p{
-    text-align: center;
-    color: rgb(59, 59, 136);
-}
-.btnbasvur{
-    border: 1px solid black;
-    border-radius: 3px;
-    padding: 4px;
-    background-color: rgb(180, 82, 82);
-    text-decoration: none;
-    color: black;
-}
-.btnbasvur:hover{
+.resim:hover{
+    border-color: red;
     opacity: 0.8;
+    
 }
-.icerik:hover{
-    color: rgb(241, 7, 7);
-    opacity: 0.6;
-}
+
+
+   
 .footer{
     background-color: gray;
     height: 200px;
