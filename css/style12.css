@@ -120,7 +120,7 @@ main{
     text-align: center;
 }
 .icerik{
-    width: 30%;
+    width: 20%;
     height: auto;
     display: inline-block;
     margin-right: 15px;
@@ -152,7 +152,7 @@ main{
     color: black;
 }
 .btnbasvur:hover{
-    opacity: 0.8;
+    background-color: red;
 }
 .icerik:hover{
     color: rgb(241, 7, 7);

@@ -132,7 +132,7 @@ main{
     background-color: white;
 }
 .resim{
-    width: 200px;
+    width: 400px;
     height: 200px;
 }
 .icerik h4{
@@ -156,7 +156,7 @@ main{
 }
 .icerik:hover{
     color: rgb(241, 7, 7);
-    opacity: 0.6;
+    
 }
 .footer{
     background-color: gray;
