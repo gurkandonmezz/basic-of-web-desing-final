@@ -113,11 +113,10 @@ main{
     text-align: center;
 }
 .icerik{
-    width: 30%;
+    width: 48%;
     height: auto;
     display: inline-block;
     margin-right: 15px;
-    margin-bottom: 15px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 2px 8px 2px;
@@ -125,8 +124,8 @@ main{
     background-color: white;
 }
 .resim{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 .icerik h4{
     text-align: center;

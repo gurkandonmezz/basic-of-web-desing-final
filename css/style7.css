@@ -131,7 +131,7 @@ main{
     padding: 15px;
     background-color: white;
 }
-.resim{
+.ust{
     width: 200px;
     height: 200px;
 }
@@ -147,15 +147,15 @@ main{
     border: 1px solid black;
     border-radius: 3px;
     padding: 4px;
-    background-color: rgb(180, 82, 82);
+    background-color: rgb(6, 90, 168);
     text-decoration: none;
     color: black;
 }
 .btnbasvur:hover{
-    opacity: 0.8;
+    background-color: red;
 }
 .icerik:hover{
-    color: rgb(241, 7, 7);
+    color: rgb(7, 128, 241);
     opacity: 0.6;
 }
 .footer{

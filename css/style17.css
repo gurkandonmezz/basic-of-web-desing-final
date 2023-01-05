@@ -49,11 +49,18 @@ div#secim {
 }
 #secim .k{
     text-decoration: none;
-    color: white;
+    color: gray;
 }
 #secim .b{
     text-decoration: none;
-    color: gray;
+    color: white;
+}
+#secim .k:hover{
+    
+    color:rgb(243, 208, 208)
+}
+#secim .b:hover{
+   color:rgb(243, 208, 208)
 }
 #menu{
     background-color: rgb(87, 84, 84);
@@ -117,7 +124,7 @@ main{
     height: auto;
     display: inline-block;
     margin-right: 15px;
-    margin-bottom: 15px;
+    margin-top: 15px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 2px 8px 2px;
@@ -125,8 +132,8 @@ main{
     background-color: white;
 }
 .resim{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 .icerik h4{
     text-align: center;
