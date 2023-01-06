@@ -132,3 +132,54 @@ body{
     margin-top: 30px;
     text-align: center;
 }
+
+@media only screen and (max-width:800px) {
+    html{
+        font-size: 20px;
+    }
+    #social{
+        width: 100%;
+    }
+    div#secim {
+       width: 100%;
+       position: none;
+       height: auto;
+    }
+    #menu{
+        height: auto;
+        width: 100%;
+        position: none;
+       
+    }
+    #menu ul{
+        width: 100%;
+        margin: 0 ;
+        padding: 0; 
+    }
+    #menu li{
+        float: left; 
+       width: 100%;
+      
+    }
+    #menu ul li:hover ul{
+        display: none;
+    }
+    .icerik{
+        width: 100%;
+        margin-right: 0px;
+        text-align: center;
+    }
+    .fmenu{
+       position: none;
+       left: 0;
+       width: 100%;
+       height: auto;
+    }
+    
+    
+}
+@media only screen and (max-width:1200px) {
+    html{
+        font-size: 15px;
+    }
+}
