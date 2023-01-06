@@ -113,7 +113,7 @@ main{
     text-align: center;
 }
 .icerik{
-    width: 48%;
+    width: 50%;
     height: auto;
     display: inline-block;
     margin-right: 15px;
@@ -123,10 +123,7 @@ main{
     padding: 15px;
     background-color: white;
 }
-.resim{
-    width: 200px;
-    height: 200px;
-}
+
 .icerik h4{
     text-align: center;
     color: rgb(180, 82, 82);
@@ -135,20 +132,23 @@ main{
     text-align: center;
     color: rgb(59, 59, 136);
 }
-.btnbasvur{
-    border: 1px solid black;
-    border-radius: 3px;
-    padding: 4px;
-    background-color: rgb(180, 82, 82);
-    text-decoration: none;
-    color: black;
+.icerikbilgi:hover {
+    background-color: blue;
+   color: black;
 }
-.btnbasvur:hover{
-    opacity: 0.8;
+.gonder{
+    background-color: rgb(119, 73, 73);
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
 }
+.gonder:hover{
+    background-color: red;
+}
+
 .icerik:hover{
     color: rgb(241, 7, 7);
-    opacity: 0.6;
+   
 }
 .footer{
     background-color: gray;
